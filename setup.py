@@ -24,7 +24,7 @@ setup(
 
     # Project uses reStructuredText, so ensure that the docutils get
     # installed or upgraded on the target machine
-    install_requires=['paramiko>=1.17'],
+    install_requires=['paramiko==3.5.1'],
 
     # metadata for upload to PyPI
     author="Jeff Hinrichs",
